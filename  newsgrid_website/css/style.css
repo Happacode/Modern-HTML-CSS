@@ -86,6 +86,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
 /* Navigation */
 #main-nav {
   background: #fff;
