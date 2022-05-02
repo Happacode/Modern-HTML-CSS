@@ -11,3 +11,39 @@ body {
   font-family: $font-stack;
   line-height: 1.5;
 }
+
+header {
+  background: $dark-color;
+  color: $light-color;
+  padding: 1rem;
+  // h1 nested inside header, just like index.html. sass improvement
+  h1 {
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+  // '&' represents parent selector
+  &-a {
+    background: $primary-color;
+    color: #fff;
+  }
+
+  &-b {
+    background: $secondary-color;
+    color: #fff;
+  }
+
+  // a {
+  //   color: #333;
+
+  //   &:hover {
+  //     color: coral;
+  //   }
+  // }
+}
